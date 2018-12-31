@@ -43,12 +43,12 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-@keyframes line{
+/*@keyframes line{
     0%{left: 62%}
     50%{left: 58%}
     51%{left: 58%}
     100%{left:  62%}
-}
+}*/
 .animation{
     position: relative;
     animation-name: vanish;
@@ -57,19 +57,19 @@
     
     
 }
-@keyframes hambozo{
+/*@keyframes hambozo{
     0%{width: 7.1%}
     50%{width: 0%}
     51%{width: 0%}
     100%{width: 7.1%}
     
-}
-@keyframes vanish{
+}*/
+/*@keyframes vanish{
     0%{transform: translateX(-5%)}
     50%{transform: translateX(0%)}
     51%{transform: translateX(0%)}
     100%{transform: translateX(-5%)}
-}
+}*/
 .art{
     overflow: hidden;
 
@@ -88,6 +88,9 @@
     overflow: hidden;
 }
 @media screen and (max-width: 1000px){
+    .art h5{
+        font-size: 15
+    }
     .art h5:after{
     content: 'Developer';
     position: absolute; 
