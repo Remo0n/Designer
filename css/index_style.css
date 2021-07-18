@@ -1,6 +1,9 @@
 *{
     font-family: 'Lato', sans-serif;
 }
+body{
+    width:100%;
+}
 .navbar.scrolled{
     background-color: #1A1A1A !important;
     padding: 15 0 !important;
